@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 40px tahoma;
+	
+	color: white;
+}
+
+h2{
+	font: bold 20px tahoma;
+	color: white;
+	background: red;
+	padding: 1px;
+	-webkit-border-radius: 5px;
+	/* -webkit-box-shadow: rgb(110,110,110) 10px 10px 10px; */
+	}
+h3{
+	text-align: center;
+	font: bold 30px tahoma;
+	color: white;
+	background: red;
+	padding: 1px;
+	
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+body{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	background:  -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+
+	
+}
+#shady{
+	max-width: 1300px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+.sf-menu li a{
+-webkit-transition:-webkit-transform 0.1s ease-in; 
+-o-transition:-o-transform 0.1s ease-in; 
+}
+.sf-menu li a:hover{
+-moz-transform:scale(1.3); /*scale up image 1.8x*/
+-webkit-transform:scale(1.3);
+-o-transform:scale(1.3);
+}
+
+a:hover, a:active { outline: none; }
+a { color: #2591d2; }
+a:hover { color: #2591d2; text-decoration:none }
+
+ul, ol { margin-left: 1.8em; }
+ol { list-style-type: decimal; }
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em; 
+	/* width:			150px;  left offset of submenus need to match (see below) */
+	padding:0 0;
+	background: grey;
+	margin-left:-10px
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	 visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+	background:none !important;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			50px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			170px; /* match ul width */
+	top:			-10px;
+	margin-left:5px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			170px; /* match ul width */
+	top:			-10px;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+}
+.sf-menu a {
+	text-decoration:none;
+	color: white;                         /* rgb(255,158,79); */
+	padding-top:25px;
+	padding-bottom:10px
+}
+.sf-menu a:hover	  { /* visited pseudo selector so IE6 applies text colour*/
+	color:white;
+}
+.sf-menu li {
+	float:left;
+	font-size:15px;
+	padding-right:25px;
+}
+
+
+.sf-menu li li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+}
+	.sf-menu li li a {
+		font-weight:normal;
+		background: black;
+		color: white;
+		padding:7px 20px;
+		line-height:16px;
+		overflow:hidden;
+	}
+	.sf-menu li li a {}
+	.sf-menu li li a:hover, .sf-menu li li a.current {
+		background: black;
+		color:white;
+	}
+	.sf-menu li li li a:hover, .sf-menu li li li a.current {
+		background: red;
+		color: red;
+	}
+	.sf-menu li li:last-child a {
+		border-bottom:none;
+	}
+.sf-menu li li li {
+	
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			-12px;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { right:10px !important; top:15px;}
+.sf-menu ul a > .sf-sub-indicator { }
+
+
+#top_header{
+	background: white;
+	border: 3px solid black;
+	padding: 20px;
+	background:  -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+
+}
+#head img{
+	
+	height: 80px;
+	width: 150px;
+}
+#logo img{
+	display: -webkit-box;
+
+	height: 50px;
+	width: 50px;
+}
+#top_header li{
+	display: inline-block;
+	list-style: none;
+	
+	
+	
+}
+
+#top_menu{
+	border: 3px solid white;
+	background: black;
+	color: white;
+}
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font: bold 16px tahoma;
+}
+	
+#new_div{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#main_section{
+	border: 1px solid black; 
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+	background:  -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+
+}
+#main_section li{
+	list-style: none;
+	
+}
+#news{
+	font: bold 16px tahoma;
+	border: 3px solid black;
+	width: 220px;
+	margin: 20px 0px;
+	background:  -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+	padding: 30px;
+	color: red;
+}
+#news li{
+	list-style: none;
+	
+}
+#the_footer{
+	font: bold 16px tahoma;
+	text-align: center;
+	padding: 20px;
+	border: 3px solid black;
+	
+	
+}
