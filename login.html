@@ -55,10 +55,11 @@
 				<header>
 					<h3>LOG IN</h3>
 				</header>
-				<p>USER ID:</p><input type="text"><br>
-				<p>PASSWORD:</p><input type="password">
-				<input type="submit" value="LOG IN" id="login">
-				
+				<form>
+				<p><b>USER ID:<input type="text" id="name"></b></p><br>
+				<p><b>PASSWORD:<input type="password" id="pass"></b></p>
+				<input type="button" value="LOG IN" id="login" onclick=store()>
+				</form>
 			</article>
 		</section>
 		<aside id="news">
