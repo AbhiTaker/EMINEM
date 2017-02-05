@@ -24,6 +24,12 @@ h3{
 	padding: 1px;
 	
 }
+h4{
+	text-align: left;
+	font:  bold 20px tahoma;
+	padding: 1px;
+	
+}
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 }
@@ -141,47 +147,10 @@ ul.sf-menu li li li.sfHover ul {
 		line-height:16px;
 		overflow:hidden;
 	}
-	.sf-menu li li a {}
-	.sf-menu li li a:hover, .sf-menu li li a.current {
-		background: black;
-		color:white;
-	}
-	.sf-menu li li li a:hover, .sf-menu li li li a.current {
-		background: red;
-		color: red;
-	}
-	.sf-menu li li:last-child a {
-		border-bottom:none;
-	}
-.sf-menu li li li {
 	
-}
-.sf-menu li:hover, .sf-menu li.sfHover,
-.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	outline:		0;
-}
 
-/*** arrows **/
-.sf-menu a.sf-with-ul {
-	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
-}
-.sf-sub-indicator {
-	position:		absolute;
-	display:		block;
-	right:			-12px;
-	top:			1.05em; /* IE6 only */
-	width:			10px;
-	height:			10px;
-	text-indent: 	-999em;
-	overflow:		hidden;
-}
-a > .sf-sub-indicator {  /* give all except IE6 the correct values */
-	top:			.8em;
-}
 
-/* point right for anchors in subs */
-.sf-menu ul .sf-sub-indicator { right:10px !important; top:15px;}
-.sf-menu ul a > .sf-sub-indicator { }
+
 
 
 #top_header{
@@ -215,6 +184,7 @@ a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 	background: black;
 	color: white;
 }
+
 #top_menu li{
 	display: inline-block;
 	list-style: none;
@@ -243,12 +213,15 @@ a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 	border: 3px solid black;
 	width: 220px;
 	margin: 20px 0px;
-	background:  -webkit-gradient(linear, left top, left bottom, from(black), to(grey));
+ background:  -webkit-gradient(linear, left top, left bottom, from(white), to(white));
 	padding: 30px;
-	color: red;
+	color: black;
 }
 #news li{
 	list-style: none;
+	border:  3px solid  white;
+	background:#282828;
+	color: white;
 	
 }
 #the_footer{
