@@ -255,3 +255,12 @@ ul.sf-menu li li li.sfHover ul {
 	
 	
 }
+button{
+	background-color: #00CCFF;
+	border: 4px solid #00CCFF;
+	height: 40px;
+	width: 80px;
+	color: white;
+	font: bold 18px tahoma;
+	
+}
