@@ -58,9 +58,15 @@ body{
 -o-transform:scale(1.3);
 }
 
-a:hover, a:active { outline: none; }
-a { color: #2591d2; }
-a:hover { color: #2591d2; text-decoration:none }
+ a:hover, a:active { outline: none; } 
+ a { color: white; 
+-webkit-transition:-webkit-transform 0.1s ease-in; 
+-o-transition:-o-transform 0.1s ease-in; 
+}
+ a:hover { color: #2591d2; text-decoration:none; 
+-moz-transform:scale(1.3); /*scale up image 1.8x*/
+-webkit-transform:scale(1.3);
+-o-transform:scale(1.3); }
 
 ul, ol { margin-left: 1.8em; }
 ol { list-style-type: decimal; }
@@ -263,4 +269,13 @@ button{
 	color: white;
 	font: bold 18px tahoma;
 	
+}
+#forms{
+	font: bold 16px tahoma;
+	border: 3px solid black;
+	width: 400px;
+	margin: 10px 30px;
+ background:  -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+	padding: 30px;
+	color: black;
 }
