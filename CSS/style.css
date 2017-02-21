@@ -59,7 +59,7 @@ body{
 }
 
  a:hover, a:active { outline: none; } 
- a { color: white; 
+ a { color: #00CCFF; 
 -webkit-transition:-webkit-transform 0.1s ease-in; 
 -o-transition:-o-transform 0.1s ease-in; 
 }
@@ -257,7 +257,7 @@ ul.sf-menu li li li.sfHover ul {
 #main_section p{
 	
 	font: bold 18px tahoma;
-	color: #FFFFFF;
+	color: ;
 	
 	
 }
@@ -273,9 +273,15 @@ button{
 #forms{
 	font: bold 16px tahoma;
 	border: 3px solid black;
-	width: 400px;
-	margin: 10px 30px;
- background:  -webkit-gradient(linear, left top, left bottom, from(white), to(white));
-	padding: 30px;
+	width: 600px;
+	margin: 5px 5px;
+  background:  -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+	padding: 40px;
 	color: black;
+}
+.input
+{
+	width : 250px;
+	height : 20px;
+	
 }
