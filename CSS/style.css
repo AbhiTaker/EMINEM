@@ -256,12 +256,13 @@ ul.sf-menu li li li.sfHover ul {
 }
 #main_section p{
 	
-	font: bold 18px tahoma;
+	font: 14px  Arial;
 	color: ;
+	padding:  12px 20px 126px;
 	
 	
 }
-button{
+.submit {
 	background-color: #00CCFF;
 	border: 4px solid #00CCFF;
 	height: 40px;
@@ -272,9 +273,9 @@ button{
 }
 #forms{
 	font: bold 16px tahoma;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	width: 600px;
-	margin: 5px 5px;
+	margin: 5px 100px;
   background:  -webkit-gradient(linear, left top, left bottom, from(white), to(white));
 	padding: 40px;
 	color: black;
@@ -285,3 +286,18 @@ button{
 	height : 20px;
 	
 }
+#formfoot{
+		/*border: 1px solid grey;*/
+		margin: 5px 0px;
+  background-color: #f4f4f4;
+  height : 60px;
+	
+}
+#spaning
+{
+	font: 14px  Arial;
+	color: ;
+	padding:  12px 20px 126px;
+	
+}
+
