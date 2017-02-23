@@ -283,7 +283,7 @@ ul.sf-menu li li li.sfHover ul {
 .input
 {
 	width : 250px;
-	height : 20px;
+	height : 30px;
 	
 }
 #formfoot{
@@ -299,5 +299,30 @@ ul.sf-menu li li li.sfHover ul {
 	color: ;
 	padding:  12px 20px 126px;
 	
+}
+#signup
+{
+	background-color: #00CCFF;
+	border: 4px solid #00CCFF;
+	height: 40px;
+	width: 250px;
+	color: white;
+	font:  18px Arial;
+	
+}
+.tophit{
+	 text-align: justify;
+   
+}
+.tophit img{
+	border: 4px solid #f4f4f4;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+    margin: 0 auto;
+	
+}
+.tophit p{
+	display: block;
 }
 
