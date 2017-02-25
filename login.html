@@ -60,7 +60,9 @@
 				<form>
 				<input type="text" id="name" placeholder="USERNAME" class="input"><br><br>
 				<input type="password" id="pass" placeholder="PASSWORD" class="input"><br><br>
-				<input type="submit" class="submit" value="Log in">
+				<input type="submit" class="submit" value="Log in"
+				onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+				onmouseover="this.style.opacity=0.7;this.filters.alpha.opacity=80">
 				<span id="spaning"><input type="checkbox">  Remember me · <a>Forgot password?</a>
 				</span>
 				</form>
