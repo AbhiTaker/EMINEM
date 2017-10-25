@@ -3,3 +3,6 @@ $(document).ready(function(){
         $("#sidebar").fadeToggle(600);
     });
 });
+$(document).ready(function(){
+    $(" ").hide();
+});

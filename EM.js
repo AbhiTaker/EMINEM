@@ -11,7 +11,7 @@ function store(){
 }
 
 function display(){
-	var main_section=document.getElementById("main_section");
+	var main_section = document.getElementById("main_section");
 	var pass=sessionStorage.getitem(name);
 	main_section.innerHTML = "WELCOME" + name;
 }
